@@ -2,6 +2,35 @@ import math
 import time
 
 
+#FUNKCJA ACKERMANN
+#m = input("Podaj m")
+#m = int(m)
+#n = input("Podaj n")
+#n = int(n)
+#def ackermann(m,n):
+#    if m==0:
+#        n = n+1
+#        return m, n
+#    elif m>0 and n==0:
+#        n = 1
+#        m = m-1
+#        return m, n
+#    elif m>0 and n>0:
+#        return ackermann(m-1,n),ackermann(m,n-1)
+#x,y = ackermann(m,n)
+#print(x)
+#print(y)
+
+
+#FUNKCJA SPRAWDZANIA TYPU
+#def factorial(n):
+#    if not isinstance(n, int):
+#        print("Tylko całkowite")
+#    elif n<0:
+#        print("Musi być dodatnia")
+#factorial(n=2.2)
+
+
 #CIĄG FIBONACCI
 #x = input("podaj cyfre")
 #n = int(x)
