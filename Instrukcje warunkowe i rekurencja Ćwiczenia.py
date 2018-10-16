@@ -2,20 +2,32 @@ import math
 import time
 
 
+#CIĄG FIBONACCI
+#x = input("podaj cyfre")
+#n = int(x)
+#def fibonacci(n):
+#    if n == 0:
+#        return 0
+#    elif n == 1:
+#        return 1
+#    else:
+#        return n-1 + n-2
+#y = fibonacci(n)
+#print(y)
+
 
 #Silnia
-x = input("Podaj cyfrę")
-n = int(x)
-def liczba(n):
-    if n == 1:
-        return 1
-    else:
-        recurse = liczba(n-1)
-        result = n*recurse
-        print(result)
-        return result
-liczba(n)
-
+#x = input("Podaj cyfrę")
+#n = int(x)
+#def liczba(n):
+#    if n == 0:
+#        return 1
+#    else:
+#        recurse = liczba(n-1)
+#        result = n*recurse
+#        return result
+#y = liczba(n)
+#print(y)
 
 #ZWRACANIE, RETURN, FUNKCJE BOOLEAN
 #def is_between(x, y, z):
