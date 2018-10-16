@@ -2,7 +2,7 @@ import math
 #print(eval('1+2*3'))
 #print(eval('math.sqrt(5)'))
 #print(eval('type(math.pi)'))
-
+#
 
 #METODA NEWTONA
 #x = int(input("Podaj"))
