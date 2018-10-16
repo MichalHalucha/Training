@@ -1,6 +1,33 @@
 import math
 import time
 
+#DZIAŁANIA
+#a = int(input("PODAJ A"))
+#b = int(input("PODAJ B"))
+#def is_power(a,b):
+#    if a%b==0:
+#        a = a ** (a / b)
+#        b = b**a
+#        return a,b
+#print(is_power(a,b))
+
+
+#PALINDROM
+#def first(word):
+#    return word[0]
+#def last(word):
+#    return word[-1]
+#def middle(word):
+#    return word[1:-1]
+#word = str(input("Podaj wyraz"))
+#x = len(word)
+#if x%2 == 1:
+#    print(first(word))
+#    print(last(word))
+#    print(middle(word))
+#else:
+#    print("Zly wyraz")
+
 
 #FUNKCJA ACKERMANN
 #m = input("Podaj m")
