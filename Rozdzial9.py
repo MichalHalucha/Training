@@ -1,5 +1,3 @@
-
-
 #Wzorzec AVOID
 #def avoid(word,forbridden):
 #    for letter in word:
@@ -29,3 +27,5 @@
 #fin = open('words.txt','r')
 #line = fin.readline()
 #print(line)
+
+#zad 9.9 i 9.8
