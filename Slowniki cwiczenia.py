@@ -46,7 +46,7 @@ def example():
     if verbose:
         print("uruchom tą funkcje jeżeli jest true")
 
-"""aby możńa było w funkcji przypisać zmienną globalna musi ona zostać zdeklarowana"""
+"""aby można było w funkcji przypisać zmienną globalna musi ona zostać zdeklarowana"""
 def example2():
     global verbose
     verbose = True
