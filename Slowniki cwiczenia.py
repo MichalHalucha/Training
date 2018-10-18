@@ -38,3 +38,31 @@ def invert_dict(d):
             inverse[val].append(key)
     return inverse
 
+#ZMIENNA GLOBALNA
+"""Jeżeli chcemy wywołać funkcje to wstawiamy zmienną globalną. Nie można robić tak, że zmieniamy tą zmienną"""
+verbose = True
+def example():
+    """jeżeli byśmy tutaj zrobili verbose = True to tworzymy nową zmienna lokalną"""
+    if verbose:
+        print("uruchom tą funkcje jeżeli jest true")
+
+"""aby możńa było w funkcji przypisać zmienną globalna musi ona zostać zdeklarowana"""
+def example2():
+    global verbose
+    verbose = True
+
+
+
+zmienna1 = 1
+def jeden(zmienna1):
+    zmienna1 = zmienna1+1
+    print("Zmienna z funkcji 1=",zmienna1)
+    return zmienna1
+def dwa():
+    global zmienna1
+    zmienna1 = zmienna1+1
+    print("Zmienna z funkcji 2 =",zmienna1)
+    return zmienna1
+dwa()
+jeden(zmienna1)
+
