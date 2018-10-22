@@ -36,3 +36,8 @@ Time.print_time(time)
 #innys sposób Time.print_time(start)
 #start.print_time(start), nie działa
 
+# jeżeli nie jestem pewien atrybutów użyj funkcji vars
+#przykład
+def print_attributes(obj):
+    for attr in vars(obj):
+        print(attr, getattr(obj,attr))
