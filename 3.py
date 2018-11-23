@@ -10,7 +10,6 @@ class Cars(Skladniki):
     def __init__(self,name,how_many):
         super().__init__(name,how_many)
 
-
     def run_auto(self):
         print("BRUM! Brum!")
     def fire(self):
