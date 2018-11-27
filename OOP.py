@@ -72,7 +72,7 @@ def write_file(file_name,text):
             contents = file_object.write(text+"\n")
             contents = file_object.write(text)
             print(contents)
-    except:
+    except FileNotFoundError:
         print("Nie ma takiego pliku!")
 
 
@@ -83,8 +83,22 @@ def read_file(file_name):
             print(contents)
             #file_path = '/home/ehmatthes/other_files/text_files/filename.txt'
             # with open(file_path) as file_object:
-    except:
+    except FileNotFoundError:
         print("Nie ma takiego pliku!")
+
+        def count_words(filename):
+            """Count the approximate number of words in a file."""
+
+        """
+        example reading few files and continue when doesn't exist
+        try:
+            ...
+        except FileNotFoundError:
+            ...
+             pass
+        
+        else:
+            ..."""
 
 
 if __name__ == '__main__':
