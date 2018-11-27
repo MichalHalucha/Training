@@ -65,9 +65,33 @@ class Battery():
         message += " miles on a full charge."
         print(message)
 
+def write_file(file_name,text):
+    #read mode ( 'r' ), write mode ( 'w' ), append mode ( 'a' ), read and write ('r+')
+    try:
+        with open(file_name, "w") as file_object:
+            contents = file_object.write(text+"\n")
+            contents = file_object.write(text)
+            print(contents)
+    except:
+        print("Nie ma takiego pliku!")
+
+
+def read_file(file_name):
+    try:
+        with open(file_name) as file_object:
+            contents = file_object.read()
+            print(contents)
+            #file_path = '/home/ehmatthes/other_files/text_files/filename.txt'
+            # with open(file_path) as file_object:
+    except:
+        print("Nie ma takiego pliku!")
 
 
 if __name__ == '__main__':
+
+    read_file("text.txt")
+    write_file("text.txt","I love programming!")
+
     print("Main")
     my_tesla = ElectricCar('tesla', 'model s', 2016)
     print(my_tesla.get_descriptive_name())
