@@ -17,3 +17,4 @@ splitlines(num=string.count("\n"))
 strip() - usuwa spacje z pocz i konca 
 upper()
 zfill(width) - dopełnienie zerami
+#Szczegółowe formatiowanie tekstu znajdę na stronie 268 w książce programowanie python dla bystrzaków
